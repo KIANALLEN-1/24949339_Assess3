@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a30b9b2a3c85e4b538f7c18dc6fa60d8
+guid: 9589ca9abce924d0196f996768a9e8df
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6289445825416515726
-    second: Roller-1.png_0
+      213: -8770001503089466214
+    second: Life_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Roller-1.png_0
+      name: Life_0
       rect:
         serializedVersion: 2
-        x: 149
-        y: 159
-        width: 362
-        height: 322
+        x: 49
+        y: 59
+        width: 142
+        height: 132
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 27f2cfd385667b8a0800000000000000
-      internalID: -6289445825416515726
+      spriteID: a94e5b03912ba4680800000000000000
+      internalID: -8770001503089466214
       vertices: []
       indices: 
       edges: []
