@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: New Piskel-2.png_0
+      name: Cloud
       rect:
         serializedVersion: 2
         x: 39
@@ -108,7 +108,7 @@ TextureImporter:
         width: 552
         height: 242
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -123,7 +123,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a85837b39a33d482f941437e851ba34d
     internalID: 0
     vertices: []
     indices: 
@@ -131,7 +131,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      New Piskel-2.png_0: -4388899747337525858
+      Cloud: -4388899747337525858
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
