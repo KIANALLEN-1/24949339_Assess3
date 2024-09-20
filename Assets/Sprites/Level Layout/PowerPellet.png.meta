@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6ffb73e7caf46429584589a8a2b60d5f
+guid: 333c5ce2d35544eecb31ec399d7f555e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1435901459259225544
-    second: Cherry_0
+      213: 2792930672680246863
+    second: PowerPellet.png_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -47,13 +47,13 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 1
+  spriteExtrude: 0
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 128
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cherry_0
+      name: PowerPellet.png_0
       rect:
         serializedVersion: 2
-        x: 209
-        y: 209
-        width: 222
-        height: 222
+        x: 0
+        y: 0
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 83a83640b37a21ce0800000000000000
-      internalID: -1435901459259225544
+      spriteID: f4e166336ab72c620800000000000000
+      internalID: 2792930672680246863
       vertices: []
       indices: 
       edges: []
@@ -131,7 +131,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Cherry_0: -1435901459259225544
+      PowerPellet.png_0: 2792930672680246863
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
