@@ -55,7 +55,6 @@ public class GhostManager : MonoBehaviour
         if (!(objectRenderer.material.color == ogColour))
         {
             objectRenderer.material.color = ogColour;
-
         }
     }
 }
