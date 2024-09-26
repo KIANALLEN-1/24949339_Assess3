@@ -3,8 +3,8 @@ guid: 98292960103174a4785f0a7909716970
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3951666642776675403
-    second: PowerPellet 1_0
+      213: -4100367571819905145
+    second: Level6_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PowerPellet 1_0
+      name: Level6_0
       rect:
         serializedVersion: 2
         x: 0
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b44d671ffd327d630800000000000000
-      internalID: 3951666642776675403
+      spriteID: 78fb4290b619817c0800000000000000
+      internalID: -4100367571819905145
       vertices: []
       indices: 
       edges: []
@@ -130,8 +130,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      PowerPellet 1_0: 3951666642776675403
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
