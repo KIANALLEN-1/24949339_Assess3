@@ -47,14 +47,29 @@ public class LevelGenerator : MonoBehaviour
         mainCam.orthographicSize = (GetMapLength(Columns(), Rows()) * TileSize+ 0.5f * TileSize);
         
         tileParent = new GameObject();
+        tileParent.name = "TileParent";
         topLeftQuadrant = new GameObject();
-        topLeftQuadrant.name = "TopLeftQuadrant";
-        topLeftQuadrant.transform.SetParent(tileParent.transform);
         PlaceTiles();
         
         
         GameObject topRightQuadrant = Instantiate(topLeftQuadrant, new Vector3(Columns()*TileSize*2-TileSize,0,0), quaternion.identity);
+        GameObject bottomLeftQuadrant = Instantiate(topLeftQuadrant, new Vector3(0,(Rows() * TileSize - TileSize)* -2 ,0), quaternion.identity);
+        GameObject bottomRightQuadrant = Instantiate(topLeftQuadrant, new Vector3(Columns()*TileSize*2-TileSize,(Rows() * TileSize - TileSize)* -2,0), quaternion.identity);
+
         topRightQuadrant.transform.localScale = new Vector3(-1, 1, 1);
+        bottomLeftQuadrant.transform.localScale = new Vector3(1, -1, 1);
+        bottomRightQuadrant.transform.localScale = new Vector3(-1, -1, 1);
+        
+        topLeftQuadrant.transform.SetParent(tileParent.transform);
+        topRightQuadrant.transform.SetParent(tileParent.transform);
+        bottomLeftQuadrant.transform.SetParent(tileParent.transform);
+        bottomRightQuadrant.transform.SetParent(tileParent.transform);
+
+       
+        topLeftQuadrant.name = "TopLeftQuadrant";
+        topRightQuadrant.name = "TopRightQuadrant";
+        bottomLeftQuadrant.name = "BottomLeftQuadrant";
+        bottomRightQuadrant.name = "BottomRightQuadrant";
     }
 
     private void PlaceTiles()
@@ -87,16 +102,34 @@ public class LevelGenerator : MonoBehaviour
                     case 2:
                         if (top && bottom) rotation = 0.0f;
                         else if (left && right) rotation = 90.0f;
-                        //failsafe
                         else if (top || bottom) rotation = 0.0f;
                         else if (left || right) rotation = 90.0f;
                         break;
                     case 3:
-                        if (right && top) rotation = 90.0f;
-                        else if (top && left) rotation = 180.0f;
-                        else if (left && bottom) rotation = 270.0f;
-                        else if (bottom && right)  rotation = 0.0f;
-                        else if (top && x >= Columns()-0.5) rotation = 90.0f;
+                        if (bottom && right && !(top && left))  rotation = 0.0f;
+                        else if (right && top && !(left && bottom)) rotation = 90.0f;
+                        else if (top && left && !(bottom && right))  rotation = 180.0f;
+                        else if (left && bottom && !(right && top)) rotation = 270.0f;
+                        else if (top && !left && !bottom && !right) rotation = 90.0f;
+                        else if (top && left && bottom && right)
+                        {
+                            if (map[y, x - 1] == 4 && map[y, x + 1] == 4 && map[y - 1, x] == 4 && map[y + 1, x] == 3)
+                            {
+                                rotation = 90.0f;
+                            }
+                            else if (map[y, x - 1] == 4 && map[y, x + 1] == 4 && map[y - 1, x] == 3 &&
+                                     map[y + 1, x] == 4)
+                            {
+                                rotation = 0.0f;
+                            }
+                        } else if (left && top && bottom)
+                        {
+                            rotation = 270.0f;
+                        }
+                        // if (y < Rows() && left && bottom && map[y+1,x] != 3 || !right && !top) rotation = 270.0f;
+                        // else if (x > 1 && y > 1 && top && left && map[y,x-2] == 4 || map[y-2,x] == 4) rotation = 180.0f;
+                        // else if (y > 0 && right && top && map[y-1,x] != 3 || !left && !bottom) rotation = 90.0f;
+                        // else if (bottom && right)  rotation = 0.0f;
                         break;
                     case 4:
                         if (top && bottom) rotation = 0.0f;
@@ -157,7 +190,6 @@ public class LevelGenerator : MonoBehaviour
                 //instantiate tiletype(0 through 7) at location x,y(in array) times by tilesize with rotation and flip for tile type 7
                 Quaternion tileRotation = Quaternion.Euler(spin, flip, rotation);
                 GameObject tile = Instantiate(tilePrefabs[tileType], new Vector3(x*TileSize,-y*TileSize), tileRotation);
-                Debug.Log("type: " + tileType + "r: "+ rotation + ", f: "+flip+",s: " + spin + ", coords: " + x +","+ y);
                 tile.transform.SetParent(topLeftQuadrant.transform);
             }
         }
@@ -168,15 +200,23 @@ public class LevelGenerator : MonoBehaviour
     {
         if (onceBool)
         {
-            foreach (Transform tile in topLeftQuadrant.transform)
+            Quaternion defaultRotation = Quaternion.Euler(0, 0, 180);
+            foreach (Transform quadrant in tileParent.transform)
             {
-                SpriteRenderer tileType = tile.GetComponent<SpriteRenderer>();
-                if (tileType.sprite == tile5 || tileType.sprite == tile6)
+                foreach (Transform tile in quadrant)
                 {
-                    
+                    SpriteRenderer tileType = tile.GetComponent<SpriteRenderer>();
+                    if (tileType.sprite == tile5 || tileType.sprite == tile6)
+                    {
+                        if (tileType.transform.position.y < -Rows()*TileSize)
+                        {
+                            tile.transform.rotation = defaultRotation;
+                        }
+                        
+                        
+                    }
                 }
             }
-
             onceBool = false;
         }
     }
