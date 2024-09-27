@@ -106,10 +106,10 @@ public class LevelGenerator : MonoBehaviour
                         else if (left || right) rotation = 90.0f;
                         break;
                     case 3:
-                        if (bottom && right && !(top && left))  rotation = 0.0f;
-                        else if (right && top && !(left && bottom)) rotation = 90.0f;
-                        else if (top && left && !(bottom && right))  rotation = 180.0f;
-                        else if (left && bottom && !(right && top)) rotation = 270.0f;
+                        if (bottom && right && !top && !left)  rotation = 0.0f;
+                        else if (right && top && !left && !bottom) rotation = 90.0f;
+                        else if (top && left && !bottom && !right)  rotation = 180.0f;
+                        else if (left && bottom && !right && !top) rotation = 270.0f;
                         else if (top && !left && !bottom && !right) rotation = 90.0f;
                         else if (top && left && bottom && right)
                         {
