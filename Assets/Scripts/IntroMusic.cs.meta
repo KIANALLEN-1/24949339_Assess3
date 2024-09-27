@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: e644f4a1b62f44659a4f2610a7ef414b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - ACIntro: {fileID: 8300000, guid: a2c7f9a4387444690b52fa5fe460d6f9, type: 3}
+  - ACBGMMain: {fileID: 8300000, guid: d7bc519e4175642c5bb079cbd5b39f80, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

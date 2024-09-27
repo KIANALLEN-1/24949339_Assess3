@@ -1,0 +1,914 @@
+fileFormatVersion: 2
+guid: f8acf9326b5a0430784f9eece26f4b31
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1528703573041015563
+    second: RollerRIGHT_0
+  - first:
+      213: -7034226106347124444
+    second: RollerRIGHT_1
+  - first:
+      213: 2333234356090285161
+    second: RollerRIGHT_2
+  - first:
+      213: -5104994867421888163
+    second: RollerRIGHT_3
+  - first:
+      213: -7641274892051962175
+    second: RollerRIGHT_4
+  - first:
+      213: -1682721999243117925
+    second: RollerRIGHT_5
+  - first:
+      213: 5814679136449163626
+    second: RollerRIGHT_6
+  - first:
+      213: 6429935801676812245
+    second: RollerRIGHT_7
+  - first:
+      213: -7492932062681903399
+    second: RollerRIGHT_8
+  - first:
+      213: -4994040619665482030
+    second: RollerRIGHT_9
+  - first:
+      213: -1956544038816501728
+    second: RollerRIGHT_10
+  - first:
+      213: -5903755623778659070
+    second: RollerRIGHT_11
+  - first:
+      213: -817809305577393131
+    second: RollerRIGHT_12
+  - first:
+      213: 5289702016438781649
+    second: RollerRIGHT_13
+  - first:
+      213: 8798570132750094976
+    second: RollerRIGHT_14
+  - first:
+      213: -6148601128034506397
+    second: RollerRIGHT_15
+  - first:
+      213: 2142480673255998970
+    second: RollerRIGHT_16
+  - first:
+      213: -5512082986986418350
+    second: RollerRIGHT_17
+  - first:
+      213: -4481959351836844368
+    second: RollerRIGHT_18
+  - first:
+      213: -4234965957972430686
+    second: RollerRIGHT_19
+  - first:
+      213: 8562204058424814390
+    second: RollerRIGHT_20
+  - first:
+      213: -8934906736754374048
+    second: RollerRIGHT_21
+  - first:
+      213: 6060574203504836115
+    second: RollerRIGHT_22
+  - first:
+      213: 2916308346910740721
+    second: RollerRIGHT_23
+  - first:
+      213: -2509651362880816079
+    second: RollerRIGHT_24
+  - first:
+      213: 8695408229779760771
+    second: RollerRIGHT_25
+  - first:
+      213: 1787893330385811687
+    second: RollerRIGHT_26
+  - first:
+      213: -477899570524114151
+    second: RollerRIGHT_27
+  - first:
+      213: 8152919222684031676
+    second: RollerRIGHT_28
+  - first:
+      213: 2745758879667050412
+    second: RollerRIGHT_29
+  - first:
+      213: 8616839730030834946
+    second: RollerRIGHT_30
+  - first:
+      213: -8338235079841054954
+    second: RollerRIGHT_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 80
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RIGHTPacStudent_0
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 3358
+        width: 364
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95f5fc8c55574f90b1203fd898fd569
+      internalID: 208137688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RIGHTPacStudent_1
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 3358
+        width: 362
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041e92def22e14da6890d65084f955c4
+      internalID: 1533193641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RIGHTPacStudent_2
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 3358
+        width: 362
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60cf301b8d6d4a8990c77af89c5211b
+      internalID: -1762910524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RIGHTPacStudent_3
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 3358
+        width: 364
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f928ad59c7b974979a5253971983b97c
+      internalID: 787045139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RIGHTPacStudent_4
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 3358
+        width: 362
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674c97b8017df4642b636abbbd3a60f9
+      internalID: -1981879921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RIGHTPacStudent_5
+      rect:
+        serializedVersion: 2
+        x: 3349
+        y: 3358
+        width: 362
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d89d7821cae4a0291ebc476f7ac2da
+      internalID: 1433677525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RIGHTPacStudent_6
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 2719
+        width: 364
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4334fc1383db047e1a536deafbc5dca0
+      internalID: -1524114986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RIGHTPacStudent_7
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 2719
+        width: 362
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20f34486db194e0ea952ad17290f306
+      internalID: 164331444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RIGHTPacStudent_8
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 2719
+        width: 362
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6887d220ef2b248399444fff8ae1ab39
+      internalID: 1984930557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RIGHTPacStudent_9
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 2719
+        width: 364
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d555ec56f7c46d4934379aa6ee24a8
+      internalID: 1375566689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RIGHTPacStudent_10
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 2719
+        width: 362
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c757c28961f54bb4a18368ef867aeaf
+      internalID: -1719869544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RIGHTPacStudent_11
+      rect:
+        serializedVersion: 2
+        x: 3349
+        y: 2719
+        width: 362
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313fa0e1294ed451ca07538838172b2e
+      internalID: 1716170794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RIGHTPacStudent_12
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 2079
+        width: 364
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8772532f9bd5d47a9b23dc4bfb784dc7
+      internalID: -1185746501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RIGHTPacStudent_13
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 2079
+        width: 362
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11afb6ef418d45b28cfcb32e1070765
+      internalID: -1392302776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RIGHTPacStudent_14
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 2079
+        width: 362
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad77ce5870c545c88f05145d54e3b78
+      internalID: 1381808976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RIGHTPacStudent_15
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 2079
+        width: 364
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984f275975a004ac5916444a60f9ee49
+      internalID: -302873371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RIGHTPacStudent_16
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 2079
+        width: 362
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c84cbb0bcc14762a39d541c3ca03b2
+      internalID: 392034949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RIGHTPacStudent_17
+      rect:
+        serializedVersion: 2
+        x: 3349
+        y: 2079
+        width: 362
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc37ae4e4b2354d96b0e00742b358aa3
+      internalID: 938343751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RIGHTPacStudent_18
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1438
+        width: 364
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d6e7a17c72948b6ba98273a10f2806
+      internalID: -1630758863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RIGHTPacStudent_19
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 1438
+        width: 362
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a55f5d2347b64a768da94dc6896c7ec
+      internalID: -1531745526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RIGHTPacStudent_20
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 1438
+        width: 362
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5cc9cb325f44ee5a7ca00391195e5a
+      internalID: -1006575240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RIGHTPacStudent_21
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 1438
+        width: 364
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a86cdb6e639c4c4cb4a546284a7aa9b
+      internalID: -1126367301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RIGHTPacStudent_22
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 1438
+        width: 362
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a3e5d9d90abe441991cf2bca58041ae
+      internalID: -609192736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RIGHTPacStudent_23
+      rect:
+        serializedVersion: 2
+        x: 3349
+        y: 1438
+        width: 362
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3975ba9eb88473fbadcf4e76eac8be
+      internalID: 372608882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RIGHTPacStudent_24
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 799
+        width: 364
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b0a795bc598408784eeffc0ca3bc5e
+      internalID: -276114690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RIGHTPacStudent_25
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 799
+        width: 362
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb729a19bdf240efa6c78c3aa320f54
+      internalID: 1034304331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RIGHTPacStudent_26
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 799
+        width: 362
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71f186171c804518a8c2fc141bf350d
+      internalID: 330813857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RIGHTPacStudent_27
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 799
+        width: 364
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178ec18a6e0314bb694d7fd78cdb2580
+      internalID: -1392917955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RIGHTPacStudent_28
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 799
+        width: 362
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f9701d389ad4fb892d4e1953e8cfc2
+      internalID: -1057025441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RIGHTPacStudent_29
+      rect:
+        serializedVersion: 2
+        x: 3349
+        y: 799
+        width: 362
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454368a1ffbc74d2ba93e62f6750a899
+      internalID: 1865972786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RIGHTPacStudent_30
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 159
+        width: 364
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344e722017de54575b264cc369840523
+      internalID: 1476861497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RIGHTPacStudent_31
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 159
+        width: 362
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e3badbef50d4f09a2edfa1c5b083fe
+      internalID: -506435015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d51c4a371280145ec963e711f199575b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      RIGHTPacStudent_0: 208137688
+      RIGHTPacStudent_1: 1533193641
+      RIGHTPacStudent_10: -1719869544
+      RIGHTPacStudent_11: 1716170794
+      RIGHTPacStudent_12: -1185746501
+      RIGHTPacStudent_13: -1392302776
+      RIGHTPacStudent_14: 1381808976
+      RIGHTPacStudent_15: -302873371
+      RIGHTPacStudent_16: 392034949
+      RIGHTPacStudent_17: 938343751
+      RIGHTPacStudent_18: -1630758863
+      RIGHTPacStudent_19: -1531745526
+      RIGHTPacStudent_2: -1762910524
+      RIGHTPacStudent_20: -1006575240
+      RIGHTPacStudent_21: -1126367301
+      RIGHTPacStudent_22: -609192736
+      RIGHTPacStudent_23: 372608882
+      RIGHTPacStudent_24: -276114690
+      RIGHTPacStudent_25: 1034304331
+      RIGHTPacStudent_26: 330813857
+      RIGHTPacStudent_27: -1392917955
+      RIGHTPacStudent_28: -1057025441
+      RIGHTPacStudent_29: 1865972786
+      RIGHTPacStudent_3: 787045139
+      RIGHTPacStudent_30: 1476861497
+      RIGHTPacStudent_31: -506435015
+      RIGHTPacStudent_4: -1981879921
+      RIGHTPacStudent_5: 1433677525
+      RIGHTPacStudent_6: -1524114986
+      RIGHTPacStudent_7: 164331444
+      RIGHTPacStudent_8: 1984930557
+      RIGHTPacStudent_9: 1375566689
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
